@@ -1,0 +1,74 @@
+:root {
+    --bg-color: #121315;
+    --font-color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{ 
+    background: url('/noisy-dark.webp');
+    background-size: 300px 300px;
+    background-color: var(--bg-color);
+    background-repeat: repeat;
+    color: var(--font-color);
+    background-blend-mode: lighten;
+    font-size: 2rem;
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+        background-size: 150px 150px;
+    }
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: normal;
+    margin: 3rem 0;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 1.2rem 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 2.6rem;
+    text-align: center;
+    color: var(--font-color);
+    background: none;
+    border: none;
+    border-bottom: 0.3rem solid #fff;
+    outline: none;
+
+    &:focus{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+button {
+    font-family: inherit;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: var(--font-color);
+    background: none;
+    border: 0.3rem solid #fff;
+    width: 20rem;
+    height: 5rem;
+    cursor: pointer;
+}

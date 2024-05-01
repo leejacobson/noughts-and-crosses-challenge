@@ -1,0 +1,14 @@
+{
+    "name": "@noughts-and-crosses/root",
+    "version": "1.0.0",
+    "workspaces": [
+        "api",
+        "webapp"
+    ],
+    "scripts": {
+        "install-all": "npm install --workspaces --all",
+        "dev": "npm run dev -w webapp & npm run dev -w api",
+        "build": "npm run build --ws",
+        "start": "npm run start -w webapp & npm run start -w api"
+    }
+}

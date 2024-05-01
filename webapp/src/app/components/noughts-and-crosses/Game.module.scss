@@ -1,0 +1,17 @@
+.gameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.game {
+    width: 400px;
+    text-align: center;
+}
+
+.gameFooter {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
